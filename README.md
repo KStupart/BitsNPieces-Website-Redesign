@@ -5,5 +5,5 @@ This project was created as a final exam submission for my Desktop Publishing an
 
 __Screenshot__
 
-Here's a screenshot of the website which uses HTML, CSS, and a bit of Javascript to make the navigation bar stick to the user's header:
+Here's a screenshot of the website:
 ![bitsnpiecesWebsite](https://user-images.githubusercontent.com/18653175/58451555-e89b4e80-80e1-11e9-92f6-8dcded98fade.jpg)
