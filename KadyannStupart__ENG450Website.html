@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Dokdo|Open+Sans|Underdog" rel="stylesheet">
+		<style>
+		
+			html {
+			  scroll-behavior: smooth;
+			}
+			
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			  font: 400 15px/1.8 "Open Sans", sans-serif;
+			  color: #777;
+			}
+			
+			.sticky {
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			  z-index: 999;
+			}
+						
+			.navbar ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0px;
+			  overflow: hidden;
+			  background-color: #333;
+			  display: flex;
+			  justify-content: space-around;
+			}
+			
+			.navbar li {
+			  float: left;
+			  display: inline-block;
+			  
+			}
+
+			.navbar li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 10px;
+			  width: 450px;
+			  text-decoration: none;
+			  font-family: 'Underdog', cursive;
+			  font-size: 18px;
+			}
+
+			.navbar li a:hover {
+			  background-color: #ff6666;
+			}
+			
+			.bgimg-1, .bgimg-2, .bgimg-3 {
+			  position: relative;
+			  opacity: 0.65;
+			  background-attachment: fixed;
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+			
+			.bgimg-1 {
+			  background-image: url("img_parallax.jpg");
+			  min-height: 400px;
+			}
+
+			.bgimg-2 {
+			  background-image: url("img_parallax2.jpg");
+			  min-height: 400px;
+			}
+
+			.bgimg-3 {
+			  background-image: url("img_parallax3.jpg");
+			  min-height: 400px;
+			}
+			
+			.headshots {
+			  border-radius: 50%;
+			}
+			
+			.bullets {
+			  list-style: none;
+			}
+			
+			.bullets li::before {
+			  content: "\2022";
+			  color: red;
+			  font-weight: bold;
+			  display: inline-block; 
+			  width: 1em;
+			  margin-left: -1em;
+			}
+
+			.caption {
+			  position: absolute;
+			  left: 0;
+			  top: 50%;
+			  width: 100%;
+			  text-align: center;
+			  color: #000;
+			  line-height: 50px;
+			}
+
+			.caption span.border {
+			  background-color: white;
+			  border-radius: 25px;
+			  color: red;
+			  width: 100px;
+			  padding: 5px;
+			  font-size: 90px;
+			  font-family: 'Dokdo', sans-serif;
+			  letter-spacing: 10px;
+			}
+
+			h2 {
+			  letter-spacing: 5px;
+			  text-transform: uppercase;
+			  font-size: 40px; 
+			  font-family: 'Underdog', cursive;
+			  color: black;
+			}
+			
+			h3 {
+			  letter-spacing: 3px;
+			  text-transform: uppercase;
+			  font: 14px "Open Sans", sans-serif;
+			  color: #ff6666;
+			}
+			
+			td img{
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+
+			}
+			
+			footer {
+			  font-family: 'Underdog', cursive;
+			}
+
+			/* Turn off parallax scrolling for tablets and phones */
+			@media only screen and (max-device-width: 1024px) {
+			  .bgimg-1, .bgimg-2, .bgimg-3 {
+				background-attachment: scroll;
+			  }
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+			
+		<div id="home" class="bgimg-1">
+		  <div class="caption">
+			<span class="border">BITS 'N PIECES</span>
+		  </div>
+		</div>
+
+		<!-- Start of Top Navigation Bar -->
+		<div class="navbar" id="navbar"> 
+			<ul id="mainNav">
+			  <li><a href="#home">Home</a></li>			  
+			  <li><a href="#whoWeAre">Who We Are</a></li>
+			  <li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</div> 
+		<!-- End of Top Navigation Bar -->
+
+		<div style="color: #777;background-color:white;padding:50px 80px;text-align: justify;">
+		  <p>Bits ‘N Pieces Puppet Theatre is dedicated to influencing the world of tomorrow by enchanting the children of today. Through the theatrical retelling of classic children’s stories, each with its own unique life lesson and moral, Bits ‘N Pieces brings to life the magical wonderment of children’s fantasy and reinforces the core values long told and emphasized by great storytellers.</p>		 
+		  <br>
+		  <h3>The Great Travelin’ Show – GIANT Puppets on National Tour</h3>
+		  <p>From script and design to actual building and choreography, it takes two years to produce one complete giant puppet production. Yet, each season, Bits ‘N Pieces continues to bring forth a new musical production of high quality children’s theatre. Shows featuring the magical nine-foot-tall puppets may be seen in a variety of venues and settings during the touring season. The company tours extensively throughout the United States and makes international appearances under the sponsorships of cultural exchange programs with Hong Kong, Japan, Singapore and Taiwan.</p>		  
+		  <br>
+		  <h3>PuppetWorld™ Playhouse – Home to Tampa Bay Puppet Shows</h3>
+		  <p>Thousands of children have experienced the art of puppetry with Bits ‘N Pieces’ Master Puppeteers at the beautiful PuppetWorld Playhouse since its opening. Traditional puppet shows based on classic children’s literature are presented throughout the year with a full repertory of puppetry styles from around the world including hand puppets, marionettes, rod puppets, and shadow puppets. In addition to performance and workshop space, the facility gives visitors an up close look at the GIANT puppet exhibition and puppet-building studios. It’s an ideal venue for school field trips and large groups. Can’t make it to PuppetWorld? We’ll bring a show to you. Call (813) 659-0659 to arrange a performance at your location.</p>
+		  <br>
+		  <h3>Arts In Education Programs</h3>
+		  <p>Each of our musical productions is adapted and specifically developed to complement and enhance the educational curriculum of the nation’s elementary school systems. Education booklets are made available to sponsors to supplement that community’s teachers’ plans. Bits ‘N Pieces also offers a variety of workshops and residencies for teachers and students as hands-on learning experiences. More information on workshops and residencies.</p>
+		  <br>
+		  <h3>Award Winning</h3>
+		  <p>Bits ‘N Pieces’ combination of imagination, artistry, and hard work have made it an award-winning representative of Florida arts at home and abroad. Recognition of its achievements include:
+			  <ul class="bullets">
+				  <li>The Atlanta Committee for the Olympic Games’ Cultural Olympiad’s Regional Designation Award for Innovation and Excellence in the Arts</li>
+				  <li>The Arts Council of Hillsborough County’s Award for Excellence in Arts Education</li>
+				  <li>The award-winning Art Off the Wall television series about artistic process (see the video on our YouTube channel) featuring Artistic Director and Master Puppet Builder Holli Rubin</li>
+				  <li>The Florida Theatre Conference Distinguished Career Award in Children’s/Youth Theatre presented to Executive Director Jerry Bickel.</li>
+			  </ul>
+		  </p>
+		  <br>
+		  <h3>International Cultural Exchanges</h3>
+		  <p>Bits ‘N Pieces first participated in international cultural exchange programs in 1988 – the same year it began presenting international puppetry artists to children in Florida. Since then, we’ve traveled to countries throughout Europe and Asia presenting our unique form of American artistry.
+			  <ul class="bullets">
+				  <li>2010, Czech Republic, World Association of Puppeteers Assembly (Director, Public Relations)</li>
+				  <li>2009, Japan, NyuDouGuMo Theatre, Love and Courage Tour</li>
+				  <li>2009, Czech Republic, Juror, 12th International Festival of Puppet Arts (Prague)</li>
+				  <li>2008, Czech Republic, Juror, 11th International Festival of Puppet Arts (Prague)</li>
+			  </ul>
+		  </p>
+		</div>
+		
+		<div class="bgimg-2"  id="whoWeAre">
+		  <div class="caption">
+			<span class="border">WHO WE ARE</span>
+		  </div>
+		</div>
+
+		<div style="color: #777;background-color:white;padding:50px 80px;text-align: justify;">
+		  <table cellspacing="20" cellpadding="10">
+			<col width="50%">
+			<col width="50%">
+			<thead>
+				<tr>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<!-- Creator's Info Here -->
+						<img class="headshots" src="img_creator.jpg">
+						<h2 align="center" >Jerry Bickel</h2>
+						<h3 align="center" >Executive Director, Producer, Artist</h3>
+						<p>Jerry Bickel, founder of the Bits ‘N Pieces Puppet Theatre in 1976, was the child who in 1959 dreamt of having his own puppet company. In addition to his performance talents, Jerry writes the script and lyrics for each show. His work has appeared in national and international puppetry festivals and has been presented in three languages. Since 1978 he has created, written and produced 11 original giant puppet musicals based on adaptations of favorite children’s tales and a dozen smaller works. He has developed 19 international cultural exchange projects.</p>	
+					</td>
+					<td>
+						<!-- Creator's Info Here -->
+						<img class="headshots" src="img_creator2.jpg">
+						<h2 align="center" >Holli Rubin</h2>
+						<h3 align="center" >Artistic Director, Master Puppet Builder</h3>
+						<p>A graduate of the University of South Florida, Holli Rubin is the company’s performer extraordinaire and master puppet builder. Since 1977, she has created puppets for 16 productions, including 52 giant puppets for 11 shows. In addition she is responsible for costumes, maintenance of repertoire, tour management, dance director, training and sponsor relations. Holli develops and leads all Bits ‘N Pieces arts-in-education programs presented on tour as well. She has taken the company on 12 international tours to Asia and Europe. In 1998 she was profiled in the award-winning series, Off the Wall.</p>
+					</td>
+				</tr>
+			</tbody>
+		  </table>
+		</div>
+
+		<div class="bgimg-3" id="contact">
+		  <div class="caption">			
+			<span class="border" style="vertical-align:middle;">CONTACT US</span>
+		  </div>
+		</div>
+
+		<div style="color: #777;background-color:white;padding:30px 80px;text-align:justify;">
+		  <table cellspacing="10" cellpadding="10">
+			<col width="40%">
+			<col width="60%">
+			<thead>
+				<tr>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<p>PuppetWorld Playhouse, Home of Bits ‘N Pieces Studios and the Enchanting PuppetWorld Stage Productions</p>
+						<p style="color: #ff6666">12904 Tom Gallagher Road
+						  <br>Dover, Florida 33527
+						  <br>Contact us at (813) 659-0659
+						  <br>Jerry@PuppetWorld.com
+						</p>			
+						<p>It’s easy to get to to PuppetWorld Playhouse. We’re just 10 minutes east of downtown Tampa!
+						  <br>Directions:
+							<ul class="bullets">
+							  <li>Take I-4 to exit 14 (McIntosh Rd.)</li>
+							  <li>Go one mile south.</li>
+							  <li>We’re on the corner of McIntosh and Tom Gallagher Roads.</li>
+							</ul>
+						</p>
+					</td>
+					<td>
+						<img src="img_map.gif" width="75%" height="auto" style="border:0.5px solid #ff6666; padding: 10px;">
+					</td>
+				</tr>
+			</tbody>
+		  </table>
+		  
+		</div>
+		
+		
+		<footer style="background-color: #333; padding: 10px;text-align:center; display: block;">
+			<p style="color: white; font-size:11px;">Created by: Kadyann Stupart
+			<br>ENG450 Desktop Publishing and Design Course Final</p>
+		</footer>
+		
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			var header = document.getElementById("navbar");
+			var sticky = header.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			  } else {
+				header.classList.remove("sticky");
+			  }
+			}
+			
+		</script>
+	</body>
+</html>
