@@ -8,6 +8,11 @@ Through the use of the following websites and my textbook I was able to successf
 3. On Scroll Fixed Header - [W3Schools' How to Create An On Scroll Fixed Header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 4. Shrinking A Header On Scroll - [W3Schools' How to Shrink A Header On Scroll](https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp)
 5. Parallax Scrolling Effect - [W3Schools' How to Create A Parallax Scrolling Effect](https://www.w3schools.com/howto/howto_css_parallax.asp)
+6. Bits 'N Pieces Website (specifically the following webpages)
+i. [Bits 'N Pieces Home Page](https://puppetworld.com/) 
+ii. [Bits 'N Pieces About Us Page](https://puppetworld.com/about-us/)
+iii. [Bits 'N Pieces Who We Are Page](https://puppetworld.com/about-us/people/)
+iv. [Bits 'N Pieces Contact Us Page](https://puppetworld.com/about-us/contact-us/)
 
 # Future Work
 * Contining the Resdesign of the Theater's website
