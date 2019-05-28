@@ -1,7 +1,7 @@
 # Bits 'N Pieces Website Redesign
 __Inspiration for Program__
 
-This project was created as a final exam submission for my Desktop Publishing and Design ENG-450 course. I knew that I wanted to create a website from scratch rather than create a brochure. To come up with my topic, I used a random subject generator and got the theme "puppetry." Wanting to use a puppet theater in Florida, [Bits 'N Pieces](https://puppetworld.com/) was the first theater in my Google search results. 
+This project was created as a final exam submission for my Desktop Publishing and Design ENG-450 course. I knew that I wanted to create a website from scratch rather than create a brochure, but I was unsure of what the website's motif should be. To come up with my topic, I used a random subject generator and got the theme "puppetry." Wanting to use a puppet theater in Florida, [Bits 'N Pieces](https://puppetworld.com/) was the first theater in my Google search results. 
 
 __Screenshot__
 
