@@ -1,5 +1,5 @@
 # Purpose of File
-This file provides an explanation of my thought process as I created this application
+This file provides an explanation of my thought process as I created this website
 
 # Resources Used
 Through the use of the following websites and my textbook I was able to successfully completed this project in a total of 3-4 days:
